@@ -69,7 +69,7 @@ const tlsSelfSignedCert = `{
         "type": "string"
       },
       "private_key_pem": {
-        "description": "Private key in [PEM (RFC 1421)](https://datatracker.ietf.org/doc/html/rfc1421) format, that the certificate will belong to. This can be read from a separate file using the [` + "`" + `file` + "`" + `](https://www.terraform.io/language/functions/file) interpolation function. Only an irreversible secure hash of the private key will be stored in the Terraform state.",
+        "description": "Private key in [PEM (RFC 1421)](https://datatracker.ietf.org/doc/html/rfc1421) format, that the certificate will belong to. This can be read from a separate file using the [` + "`" + `file` + "`" + `](https://www.terraform.io/language/functions/file) interpolation function. ",
         "description_kind": "plain",
         "required": true,
         "sensitive": true,
@@ -188,7 +188,6 @@ const tlsSelfSignedCert = `{
           "description": "The subject for which a certificate is being requested. The acceptable arguments are all optional and their naming is based upon [Issuer Distinguished Names (RFC5280)](https://tools.ietf.org/html/rfc5280#section-4.1.2.4) section.",
           "description_kind": "markdown"
         },
-        "max_items": 1,
         "nesting_mode": "list"
       }
     },

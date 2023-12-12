@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/ahmetb/go-linq/v3 v3.2.0
-	github.com/go-git/go-git/v5 v5.10.1
+	github.com/go-git/go-git/v5 v5.11.0
 	github.com/google/go-github/v51 v51.0.0
 	github.com/hashicorp/go-version v1.6.0
 	github.com/hashicorp/hc-install v0.6.2

@@ -1,7 +1,6 @@
 module github.com/lonegunmanb/terraform-tls-schema/v4
 
 go 1.22.0
-
 toolchain go1.23.4
 
 require (
@@ -14,7 +13,7 @@ require (
 	github.com/hashicorp/terraform-json v0.24.0
 	github.com/iancoleman/strcase v0.3.0
 	github.com/stretchr/testify v1.10.0
-	golang.org/x/oauth2 v0.25.0
+	golang.org/x/oauth2 v0.27.0
 )
 
 require (

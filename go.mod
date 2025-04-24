@@ -1,6 +1,7 @@
 module github.com/lonegunmanb/terraform-tls-schema/v4
 
-go 1.22.0
+go 1.23.0
+
 toolchain go1.24.1
 
 require (

@@ -78,6 +78,12 @@ const tlsCertRequest = `{
               "optional": true,
               "type": "string"
             },
+            "email_address": {
+              "description": "ASN.1 Object Identifier (OID): ` + "`" + `1.2.840.113549.1.9.1` + "`" + `",
+              "description_kind": "plain",
+              "optional": true,
+              "type": "string"
+            },
             "locality": {
               "description": "Distinguished name: ` + "`" + `L` + "`" + `",
               "description_kind": "plain",

@@ -10,4 +10,5 @@ import (
 func TestResourceSchema(t *testing.T) {
 	assert.NotEmpty(t, generated.Resources)
 	assert.NotEmpty(t, generated.DataSources)
+    assert.NotEmpty(t, generated.EphemeralResources)
 }

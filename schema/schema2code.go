@@ -14,6 +14,7 @@ type Package string
 
 const PackageResource = "resource"
 const PackageData = "data"
+const PackageEphemeral = "ephemeral"
 
 const funcTemplate = `package {{ .Package }}  
   
